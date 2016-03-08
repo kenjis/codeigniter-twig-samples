@@ -27,6 +27,11 @@ class Session_sample extends CI_Controller
 	public function flash()
 	{
 		$this->session->set_flashdata('test_sess', 'Hello Session');
+		redirect('session_sample/flash_test');
+	}
+
+	public function flash_test()
+	{
 		$this->twig->addGlobal('session', $this->session);
 		$this->twig->display('session_sample/flash');
 	}
