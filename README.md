@@ -1,5 +1,13 @@
 # CodeIgniter Twig Samples
 
+> [!WARNING]
+> This repository is out of date.
+> CodeIgniter 3 has not been updated for over a year already. It also does not 
+> support PHP 8.2. No official announcement has been made, but there is almost 
+> no maintainer.
+> Upgrading to CodeIgniter 4 is strongly recommended.
+> See https://github.com/kenjis/ci4-twig-sample.
+
 ## Requirements
 
 * PHP 5.4 or later
